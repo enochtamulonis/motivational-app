@@ -5,21 +5,11 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby 3.2.2
+* Rails 7
+* Hotwire
+* TailwindCSS
+* Postgresql
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-# motivational-app
+Create motivating wallpapers for your computer/phone with this App, we turn simple Rich Text into downloadable wallpapers  
+<img width="1710" alt="Screenshot 2024-02-11 at 12 58 18 PM" src="https://github.com/enochtamulonis/motivational-app/assets/63070125/9c9b3cad-0362-43d3-93a9-1b67538b3f9d">

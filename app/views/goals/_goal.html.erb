@@ -1,0 +1,13 @@
+<div id="<%= dom_id goal %>">
+  <p class="my-5">
+    <strong class="block font-medium mb-1">Text:</strong>
+    <%= goal.text %>
+  </p>
+
+  <% if action_name != "show" %>
+    <%= link_to "Show this goal", goal, class: "rounded-lg py-3 px-5 bg-gray-100 inline-block font-medium" %>
+    <%= link_to "Edit this goal", edit_goal_path(goal), class: "rounded-lg py-3 ml-2 px-5 bg-gray-100 inline-block font-medium" %>
+    <%= link_to "Download Wallpaper", url_for(goal.wallpaper), class: "rounded-lg py-3 ml-2 px-5 bg-gray-100 inline-block font-medium", download: true if goal.wallpaper.attached? %>
+    <hr class="mt-6">
+  <% end %>
+</div>

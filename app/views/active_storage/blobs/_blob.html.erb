@@ -1,0 +1,8 @@
+<figure class="attachment attachment--<%= blob.representable? ? "preview" : "file" %> attachment--<%= blob.filename.extension %>">
+  <br/>
+  <div class="w-full flex justify-center">
+    <% if blob.representable? %>
+      <%= image_tag blob.representation(resize_to_limit: [ 1024, 768 ]), class: "w-40 object-cover"  %>
+    <% end %>
+  </div>
+</figure>
